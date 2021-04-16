@@ -1,0 +1,281 @@
+*{box-sizing: border-box;}
+
+
+header{display: flex;
+flex-flow: wro wrap;
+box-shadow:  0px 5px whitesmoke;
+height: 60px;
+background-color:white;
+
+
+}
+
+#logo{
+width: 35%;
+margin-left: 150px;
+}
+.nav{display: flex;
+    flex-flow: row;
+    width:50%;
+    margin-right: 100px;
+   
+    
+    }  
+
+    .space{display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+           #blue{color:blue;}
+
+
+
+
+  .boy{display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    width:100%;
+    background: url(./home-banner.png);
+    background-position: -19px -225px;
+    font-size: large;
+    margin: 0 auto;
+    
+   
+}  
+#h3{
+    
+    width: 232px;
+    margin-left: 240px;
+}
+
+#lap{
+    width: 39%;
+}  
+#lap img{width:66%;
+   
+
+}
+
+
+.button #boy{display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+margin-left: 150px;
+}
+
+.hello #boy{display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+text-align: center;
+margin-left: 300px;
+
+
+}
+
+
+.section2{width:90%;
+margin: 0 auto;
+display: flex;
+font-size: large;
+margin-top: 100px;}
+
+
+
+#lap2 img{width:60%;
+margin-left: 100px;}
+
+
+.right{width:50%;}
+
+
+
+.color{color:#777777;}
+
+
+#cv{color: white;
+padding: 10px;
+background-color: #854fee;}
+
+
+
+.section3{display: flex;
+margin: 0 auto ;
+width: 90%;}
+
+
+.left{
+display: flex;
+flex-flow: column;
+}
+.row1{display: flex;
+flex-flow: row;
+height: 122px;}
+.row2{display: flex;
+    flex-flow: row;}
+   .row3 {display: flex;
+        flex-flow: row;}
+
+
+
+.year{width: 50%;
+
+}
+
+.ten{background-color:  #dfd4f5;
+    width:60%;
+    height: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;}
+  .ten  h1,h5{
+        color: #854fee;
+    }
+   .ten h1{
+        font-size: 80px;
+        margin: 0 auto;}
+       .ten section{
+            padding: 20px;
+        }
+
+  .ten p{  display: flex;
+    flex-direction: row;}
+
+.left div{
+   
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+         .left img{
+            width: 33%;
+            border:rgb(201, 194, 194) 1px solid;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 3px;}
+
+.section4{
+    width: 90%;
+    text-align: center;
+    }
+#for-img{
+    display: flex;
+    flex-flow: row;
+ }
+.offers{margin: 0 auto;
+    padding:30px;
+width:50%;}
+.offers h5{
+    color: rgb(105, 94, 94);
+}
+.service{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.block{display: flex;
+   
+}
+
+
+.block div{width:40%;
+padding: 20px;
+}
+.block h5{
+    color: rgb(94, 91, 91);
+    padding: 10px;
+}
+.img-con{
+    height: 280px;
+    width: 20%;
+    background-color: #e5e5e7;
+    margin: 10px;
+    text-align: center;
+    padding-top: 4%;
+}
+.block img{
+    padding: 25px;
+}
+
+
+.section5{
+    width:90%;
+    margin: 60px auto;
+  
+    
+}
+
+.heading{
+    padding: 30px;}
+
+    .barr{display: flex;}
+
+   .barr h5{ text-decoration: none;
+    padding: 10px;
+    margin:10px;
+    color: black;}
+    .photo{display:flex ;
+    justify-content: space-between;}
+
+
+
+
+
+
+    .section6{width: 90%;
+    margin: 0 auto;}
+
+
+    .say{text-align: center;}
+
+
+    .say h5{color:gray ;}
+#clients{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+
+.client{
+    display: flex;
+border: 1px solid whitesmoke;
+   width: 36%;
+}
+.client div {margin-left: 10px;}
+.client h5{
+    color: rgb(90, 88, 88);
+    padding-top: 20px;
+    margin-top: -14px;
+}
+.img-1{
+    width: 40%;
+    height: 85%;    
+}
+.img-2{
+    width:50%;
+   
+    display: flex;
+    margin-bottom: 90px;
+}
+.section7{
+width: 80%;
+margin:0 auto;
+text-align: center;
+background-color:#854fee ;
+height: 200px;
+padding: 20px;
+}
+.form{color: honeydew;}
+
+footer{display: flex;
+flex-flow: column;
+text-align: center;}
